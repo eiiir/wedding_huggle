@@ -61,6 +61,11 @@ button {
 	border-width: 1;
 	border-color: lightgray;
 }
+.rule-point {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #total-point-row {
 	background-color: yellow;
 }
