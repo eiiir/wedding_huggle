@@ -1,8 +1,12 @@
 body {
-	font-size: 24px;
+	font-size: 36px;
 }
 
 select {
+	font-size: 2rem;
+}
+
+button {
 	font-size: 2rem;
 }
 
