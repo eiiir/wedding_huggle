@@ -45,7 +45,7 @@ const rules = [
 		return cs.filter(c => c.number % 2 === 1).length === 0 ? 4 : 0;
 	}},
 	{ id: 7, calc: (cs) => {
-		return cs.filter(c => c.number === 4 || cs.number === 11).length;
+		return cs.filter(c => c.number === 4 || c.number === 11).length;
 	}},
 	{ id: 8, calc: (cs) => {
 		return (cs.some(c => c.number === 12) && cs.some(c => c.number === 13)) ? 1 : 0;
